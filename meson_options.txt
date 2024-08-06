@@ -1,0 +1,47 @@
+option('enable_gpu',
+       type: 'boolean',
+       value: false,
+       description: 'enable gpu',
+       yield: true)
+option('CUDA_VERSION',
+       type: 'string',
+       description: 'cuda version')
+option('CUDA_INCLUDE_DIRS',
+       type: 'string',
+       value: '/usr/local/cuda/include',
+       description: 'cuda include_dir')
+option('enable_nvtx',
+       type: 'boolean',
+       value: false,
+       description: 'enable nvtx',
+       yield: true)
+option('enable_tracing',
+       type: 'boolean',
+       value: true,
+       description: 'enable nvtx',
+       yield: true)
+option('enable_logging',
+       type: 'boolean',
+       value: true,
+       description: 'enable nvtx',
+       yield: true)
+option('enable_stats',
+       type: 'boolean',
+       value: false,
+       description: 'enable nvtx',
+       yield: true)
+option('enable_metrics',
+       type: 'boolean',
+       value: false,
+       description: 'enable nvtx',
+       yield: true)
+option('enable_metrics_cpu',
+       type: 'boolean',
+       value: false,
+       description: 'enable nvtx',
+       yield: true)
+option('enable_metrics_gpu',
+       type: 'boolean',
+       value: false,
+       description: 'enable nvtx',
+       yield: true)
